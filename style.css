@@ -1,0 +1,359 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+html,body{
+    background-color: black;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scroll-behavior: smooth;
+    line-height: 1.8;
+}
+
+header{
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    border-bottom: 0.5px solid rgb(27, 27, 33);
+    padding : 0px 30px;
+}
+
+#Home, #About, #Achievement, #Services, #Contact{
+  scroll-margin-top: 80px;
+}
+
+.name{
+    padding: 20px;
+    color: rgb(98, 72, 134);
+    font-weight: 600;
+}
+.mainMenu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+.menu:hover{
+    color: rgb(107, 39, 200);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.frontPhoto{
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.sec1{
+    text-align: center;
+    padding: 100px;
+    /* padding: 120px 500px; */
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    /* max-width: 700px; */
+    align-items: center;
+    background-color: rgb(14, 16, 31);
+}
+
+.sec1 h1{
+    padding: 25px;
+    color: rgb(161, 161, 170);
+}
+
+.sec1 p{
+    color: rgb(161, 161, 170);
+}
+
+.intro{
+    font-size: 70px;
+    font-weight: 600;
+    display: flex;
+    gap: 20px;
+}
+
+.introName{
+    color: rgb(107, 39, 200);
+}
+
+.sec1 p{
+    max-width: 600px;
+}
+.sec2{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(15, 15, 22);
+    padding: 100px;
+}
+
+.abtme{
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.journey{
+    display: flex;
+    gap: 200px;
+    padding-top: 50px;
+}
+
+.journeySpeech{
+    max-width: 600px;
+    text-align: left;
+    /* padding-right: 50px; */
+}
+
+.sec2Card{
+    border: 0.1px solid white;
+    border-radius: 8px;
+    padding: 2px 15px;
+}
+
+.journeySpeech p{
+    color: rgb(161, 161, 170);
+}
+
+.skills{
+    /* margin-left: 50px; */
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.specificSkill p{
+    color: rgb(167, 104, 255);
+}
+
+.skillDetail{
+    font-size: 14px;
+    color: rgb(161, 161, 170);
+}
+
+.sec3{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    text-align: center;
+    background-color: rgb(9, 9, 11);
+}
+
+.numerator{
+    color: rgb(107, 39, 200);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.inWhere{
+    color: rgb(161, 161, 170);
+}
+
+.sec4{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 250px;
+    text-align: center;
+    background-color: rgb(15, 15, 22);
+}
+
+.sec4Head{
+    padding-left: 45px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.sec4CardAll{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.judgeName{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.judgePositioncf{
+    color: blue;
+    font-weight: 600;
+}
+
+.judgePositioncc{
+    color: rgb(251, 191, 0);
+    font-weight: 600;
+}
+
+.judgePositionat{
+    color: cyan;
+    font-weight: 600;
+}
+
+.sec5{
+    background-color: rgb(9, 9, 11);
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.sec5Head{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.sec5CardAll{
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+    /* text-align: left; */
+}
+
+.sec5Card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 10px;
+    max-width: 300px;
+    background-color: rgb(7, 13, 18);
+    border-radius: 8px;
+    border: 1px solid rgb(39, 39, 42);
+    /* border-color: white; */
+}
+
+.sec5CardHead{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+li::marker{
+    color: rgb(107, 39, 200);
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.sec5CardHeadDetail{
+    color: rgb(161, 161, 170);
+}
+
+.sec5CardSkill{
+    text-align: left;
+    padding-left: 25px;
+}
+
+.sec5CardPrice{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(107, 39, 200);
+}
+
+.sec5CardButton{
+    display: inline-block;
+    border: 0.1px solid #ccc;
+    border-radius: 8px;
+    padding: 5px 20px;
+    font-weight: 500;
+    
+    background-color: rgb(7, 13, 18);
+    color: white;
+    font-weight: 600;
+    transition: var(--transition-smooth);
+    
+    /* 
+    text-decoration: none;
+    border: none;
+    
+    font-size: 1rem; 
+    */
+}
+
+.sec5CardButton:hover{
+    border-color: rgb(167, 104, 255);
+    background-color: rgb(39, 39, 42);
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
+.sec6{
+    background-color: rgb(15, 15, 22);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.sec6Head{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.sec6CardAll{
+    display: flex;
+    gap: 100px;
+    padding-top: 30px;
+}
+
+.sec6Card{
+    max-width: 400px;
+}
+
+.sec6CardHead{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sec6CardDetail{
+    color: rgb(161, 161, 170);
+}
+
+.sec7{
+    background-color: rgb(25, 25, 36);
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.finalName{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.socialLinks{
+    display: flex;
+    gap: 30px;
+    
+}
+.socialLinks a{
+    text-decoration: none;
+    color: white;
+}
+
+.socialLinks a:hover{
+    color: rgb(107, 39, 200);
+    transition: 0.2s;
+}
